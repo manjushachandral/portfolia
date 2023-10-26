@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio creation</title>
+        </head>
+        <body>
+            <header>
+            <div class="header-content">
+                <!--Add your profile picture here-->
+                <img src="Manjusha.jpg"alt="your profile picture"class="profile-picture">
+                <h1>Manjusha.M</h1>
+                <p>student of computer science</p>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certificate">Certificate</a></li>
+            </ul>
+        </nav>
+        <section id="about">
+            <div class="section-content">
+                <h2>About myself</h2>
+                <p>Hello! I am Manjusha.M a computerscience student</p>
+            </div>
+        </section>
+        <section id="Education">
+            <div class="section-content">
+                <h2>Education</h2>
+                <p>Bsc ComputerScience in SDKW college</p>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="section-content">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Artificial Intelligence</li>
+                    <li>Maching Learning</li>
+                    <li>Programming</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                </ul>
+            </div>
+        </section>
+        <section id="certificate">
+            <center>
+                <div class="section-content">
+                    <h2>certificate</h2>
+                    <a href="HSLC.jpg"class="download-button">Download Certificate</a>
+                </div>
+            </center>
+        </section>
+    <style>
+            body{
+                font-family:Arial,sans-serif;
+                margin:0;
+                padding:0;
+                background-color: #f0f0f0;
+            }
+            
+            header{
+                background-color: #333;
+                color:#fff;
+                text-align: center;
+                padding:2rem 0;
+                position: relative;
+            }
+            .header-content h1{
+                font-size: 2.5rem;
+            }
+            .profile-picture{
+                width: 100px;
+                height: 100px;
+                border-radius: 75%;
+                object-fit: cover;
+                position: absolute;
+                top:75px;
+                left:75px;
+            }
+            nav
+            {
+                background-color:#333;
+                color:#fff;
+                text-align:center;
+            }
+            nav ul{
+                list-style-type:none;
+                padding: 10px;
+            }
+            nav ul li {
+                display:inline;
+                margin:0 20px;
+            }
+            nav ul li a{
+                text-decoration: none;
+                color: #fff;
+            }
+            .section-content{
+                background-color: #fff;
+                padding: 2rem;
+                margin: 1rem;
+                border-radius: 20px;
+                box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            .download-button{
+                background-color: #333;
+                color:#fff;
+                padding: 0.5rem 1rem;
+                text-decoration: none;
+                border-radius: 20px;
+                display: inline-block;
+                margin-top:10px;
+            }
+            .download-button:hover{
+                background-color: blue;
+            }
+            ul{
+                list-style-type: lower-roman;
+                padding-left: 20px;
+            }
+        </style>
+    </body>
+    </html>
